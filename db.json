@@ -1,13 +1,94 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "username": "johndoe",
+      "role": "user",
+      "phone": "+1-202-555-0143",
+      "address": "123 Main St, New York, USA"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "username": "janesmith",
+      "role": "admin",
+      "phone": "+1-202-555-0198",
+      "address": "45 Park Ave, Los Angeles, USA"
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "username": "mikebrown",
+      "role": "user",
+      "phone": "+1-202-555-0112",
+      "address": "9 Elm Street, Chicago, USA"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "username": "emilyd",
+      "role": "user",
+      "phone": "+1-202-555-0183",
+      "address": "72 Maple Rd, Boston, USA"
+    },
+    {
+      "id": 5,
+      "name": "William Johnson",
+      "email": "william.johnson@example.com",
+      "username": "willjohn",
+      "role": "moderator",
+      "phone": "+1-202-555-0101",
+      "address": "5 River Lane, Dallas, USA"
+    },
+    {
+      "id": 6,
+      "name": "Olivia Miller",
+      "email": "olivia.miller@example.com",
+      "username": "oliviam",
+      "role": "user",
+      "phone": "+1-202-555-0166",
+      "address": "88 Sunset Blvd, San Diego, USA"
+    },
+    {
+      "id": 7,
+      "name": "James Wilson",
+      "email": "james.wilson@example.com",
+      "username": "jamesw",
+      "role": "user",
+      "phone": "+1-202-555-0199",
+      "address": "230 Green St, Seattle, USA"
+    },
+    {
+      "id": 8,
+      "name": "Sophia Taylor",
+      "email": "sophia.taylor@example.com",
+      "username": "sophiat",
+      "role": "user",
+      "phone": "+1-202-555-0137",
+      "address": "17 Oak Ave, Miami, USA"
+    },
+    {
+      "id": 9,
+      "name": "Liam Martinez",
+      "email": "liam.martinez@example.com",
+      "username": "liamm",
+      "role": "admin",
+      "phone": "+1-202-555-0175",
+      "address": "99 Pine St, Houston, USA"
+    },
+    {
+      "id": 10,
+      "name": "Ava Anderson",
+      "email": "ava.anderson@example.com",
+      "username": "avaa",
+      "role": "user",
+      "phone": "+1-202-555-0128",
+      "address": "61 Hilltop Dr, Denver, USA"
+    }
+  ]
 }
