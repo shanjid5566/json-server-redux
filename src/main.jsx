@@ -7,7 +7,6 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store.js";
 import Users from "./pages/Users.jsx";
 import App from "./App.jsx";
-import AddPost from "./pages/AddPost.jsx";
 import AddUser from "./pages/AddUser.jsx";
 
 createRoot(document.getElementById("root")).render(
@@ -16,7 +15,6 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/users" element={<Users />} />
-        <Route path="/add-post" element={<AddPost />} />
         <Route path="/add-user" element={<AddUser />} />
       </Routes>
     </BrowserRouter>
