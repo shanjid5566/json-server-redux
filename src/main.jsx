@@ -1,12 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
 import { Route, Routes } from "react-router";
 import { BrowserRouter } from "react-router";
 import { Provider } from "react-redux";
 import { store } from "./redux/store.js";
 import Users from "./pages/Users.jsx";
+import App from "./App.jsx";
+import AddPost from "./pages/AddPost.jsx";
+import AddUser from "./pages/AddUser.jsx";
 
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
@@ -14,6 +16,8 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/users" element={<Users />} />
+        <Route path="/add-post" element={<AddPost />} />
+        <Route path="/add-user" element={<AddUser />} />
       </Routes>
     </BrowserRouter>
   </Provider>
