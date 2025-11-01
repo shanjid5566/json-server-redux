@@ -107,6 +107,24 @@
       "role": "admin",
       "phone": "+1 (596) 776-4075",
       "address": "In aliquid alias nat"
+    },
+    {
+      "id": "f38e",
+      "name": "Ayanna Osborne",
+      "email": "femurig@mailinator.com",
+      "username": "dakedix",
+      "role": "moderator",
+      "phone": "+1 (988) 653-7839",
+      "address": "Molestias voluptas a"
+    },
+    {
+      "id": "3c5d",
+      "name": "Lacy Payne",
+      "email": "zatefi@mailinator.com",
+      "username": "mypaxuvi",
+      "role": "user",
+      "phone": "+1 (389) 686-5949",
+      "address": "Quam qui qui aut ali"
     }
   ]
 }
