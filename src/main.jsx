@@ -6,12 +6,14 @@ import { Route, Routes } from "react-router";
 import { BrowserRouter } from "react-router";
 import { Provider } from "react-redux";
 import { store } from "./redux/store.js";
+import Users from "./pages/Users.jsx";
 
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/users" element={<Users />} />
       </Routes>
     </BrowserRouter>
   </Provider>
