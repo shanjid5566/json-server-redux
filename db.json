@@ -89,6 +89,24 @@
       "role": "user",
       "phone": "+1-202-555-0128",
       "address": "61 Hilltop Dr, Denver, USA"
+    },
+    {
+      "id": "3b22",
+      "name": "Sydney Cooke",
+      "email": "winujiby@mailinator.com",
+      "username": "zycimo",
+      "role": "moderator",
+      "phone": "+1 (643) 484-6031",
+      "address": "Ut ratione sint eli"
+    },
+    {
+      "id": "2edb",
+      "name": "Yoko Becker",
+      "email": "duxymiso@mailinator.com",
+      "username": "wuxan",
+      "role": "admin",
+      "phone": "+1 (596) 776-4075",
+      "address": "In aliquid alias nat"
     }
   ]
 }
